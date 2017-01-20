@@ -1,0 +1,3053 @@
+/* global */
+
+#WNAffKMIR {
+    width: auto !important;
+}
+
+#WNAffKMIR #WNHeader {
+    width: 1200px;
+    margin: 0 auto;
+}
+div#WNBranding{
+  width: 1200px;
+  margin: 0 auto;
+  height: 122px;
+  position: relative;
+  border-bottom: 1px solid #B5B5B5;
+}
+
+#WNColsAll {
+    width: 980px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.small-icon-white {
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/play.png) center center no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+/*Start giang.nguyen region*/
+
+
+/* Start the footer */
+
+#WNAffKMIR #WNFooter {
+    width: 1200px;
+    padding: 0px;
+    background: #EFEFEF;
+    border: none;
+    margin: 0 auto;
+}
+
+#WNFooter #WNCopyrightAlignment {
+    display: block;
+}
+
+#WNCopyright>div.cdev-footer-site-links-bottom>ul>li,
+#WNCopyright>div.cdev-footer-site-links-bottom>ul>li a {
+    color: #565656;
+}
+
+#WNCopyright>div.cdev-footer-site-links-bottom>ul {
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+#WNCopyright>div.cdev-footer-site-links-bottom>ul>li {
+    display: inline-block;
+}
+
+#WNCopyright>div.cdev-footer-site-links-bottom>ul>li a {
+    font-size: 10.9px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    font-family: verdana, sans-serif !important;
+}
+
+#WNCopyright>div.cdev-footer-site-links-bottom>ul>li:not(:first-child)::before {
+    content: ' ';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0px 6px;
+    border-radius: 50%;
+    background: #565656;
+    color: #565656;
+    vertical-align: middle;
+}
+
+.cdev-footer-copyright {
+    color: black;
+}
+
+.cdev-footer-copyright a {
+    text-decoration: none !important;
+    color: black;
+}
+
+#WNCopyright>div.cdev-footer-copyright>span {
+    display: inline-block;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/footer_logo.PNG) no-repeat center;
+    height: 34px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+
+/* Start the breaking news */
+
+#DisplaySizeId-30 {
+    /* hide when page is loading.... */
+    display: none;
+    background: #9D0C13;
+    margin-top: 10px;
+}
+
+#DisplaySizeId-30>ul {
+    display: block;
+    width: 980px;
+    margin: 0 auto;
+}
+
+#DisplaySizeId-30>ul li {
+    position: relative;
+    height: 70px;
+}
+
+#DisplaySizeId-30>ul li.hide {
+    display: none;
+}
+
+#DisplaySizeId-30>ul li span.title {
+    text-transform: uppercase;
+    line-height: 70px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#DisplaySizeId-30>ul li span.title:after {
+    content: ':';
+}
+
+#DisplaySizeId-30>ul li span.headline {
+    font-weight: bold;
+    padding-left: 15px;
+    word-spacing: 2px;
+    font-size: 16px;
+    max-width: 660px;
+    display: inline-block;
+    color: white;
+}
+
+#DisplaySizeId-30>ul li span.close {
+    position: absolute;
+    top: 13px;
+    right: -98px;
+    width: 15px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/breaking_news_close.png) center no-repeat;
+    background-size: contain;
+    height: 15px;
+    cursor: pointer;
+}
+
+#DisplaySizeId-30>ul li span.more {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 21px;
+    text-transform: uppercase;
+    background: black;
+    padding: 3px 10px;
+    padding-top: 4px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#DisplaySizeId-30>ul li span.more a {
+    text-decoration: none;
+    color: white;
+}
+
+#DisplaySizeId-30>span.show-breaking-news {
+    display: none;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Start the brading */
+
+#WNBranding,
+#WNContainerMemberSearch-headertop {
+    display: none;
+}
+
+#WNAffKMIR #WNHeader {
+    background: white;
+}
+
+#WNBranding>div.branding-custom div {
+    display: inline-block;
+}
+
+#WNBranding>div.branding-custom {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #WNBranding > div.branding-custom a.home-link, #WNBranding > div a.home-link > div.image{
+    width: 205px;
+    height: 80px;
+    background-position-x: -20px !important;
+    position: absolute;
+    left: 118px;
+    top: 0px;
+  }
+  #WNBranding > div a.home-link > div.image{
+    left: 0px;
+  }
+  #WNBranding > div > div.icons-custom{
+    width: 265px;
+    height: 100%;
+    position: absolute;
+    right: 105px;
+  }
+  #WNBranding > div > div.nav-custom {
+    width: 491px;
+    height: 60px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: 339px;
+  }
+  #WNBranding > div > div.icons-custom > a> span, #WNBranding > div > div.icons-custom > span{
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 29px;
+    background-size: contain !important;
+    margin-left: 13px;
+}
+
+#WNBranding>div>div.icons-custom>a:nth-child(1)>span {
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/watch_live_kmir.png) center no-repeat;
+    width: 106px;
+    margin-left: 0px;
+}
+
+#WNBranding>div>div.icons-custom>a:nth-child(2)>span {
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/facebook_kmir.png) center no-repeat;
+    left: 106px;
+}
+
+#WNBranding>div>div.icons-custom>a:nth-child(3)>span {
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/twitter_kmir.png) center no-repeat;
+    left: 147px;
+}
+
+#WNBranding>div>div.icons-custom>a:nth-child(4)>span {
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/webcam_kmir.png) center no-repeat;
+    left: 188px;
+}
+
+#WNBranding>div>div.icons-custom>span {
+    width: 21px;
+}
+
+#WNBranding>div>div.icons-custom>span>span {
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/search_kmir.png) center no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#WNBranding>div>div.icons-custom>span.search {
+    right: 5px;
+    cursor: pointer;
+}
+
+#WNBranding>div>div.icons-custom>span>input[type="text"] {
+  position: absolute;
+  right: 21px;
+  height: 29px;
+  top: 51px;
+  color: black;
+  z-index: 1000000;
+  }
+  /* Start the nav */
+  #WNMenuCol1{
+    display: none; /* hide when this nav was been render */
+  }
+  #WNMenuCol1,  #menu2476 {
+    width: 100%;
+    height: 100%;
+  }
+  .wnMainMenu .wnHorizontal SPAN{
+    float: none !important;
+  }
+  #menu2476 UL{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: white;
+  }
+  #menu2476 UL > li{
+    display: table-cell;
+  }
+  #menu2476 LI.wnOn .wnMiddle,
+  #menu2476 .wnRight .wnMiddle{
+    background: transparent;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  #menu2476 LI.wnOn .wnMiddle span,
+  #menu2476 .wnRight .wnMiddle span {
+    width: auto !important;
+  }
+  .wnMainMenu .wnHorizontal{
+    width: auto;
+  }
+  #menu2476 UL > li > ul{
+    display: none;
+  }
+  #menu2476 UL > li > ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .wnMainMenu .wnDynamic .wnSublevel > LI{
+    float: left !important;
+  }
+  #menu2476 .wnHorizontal{
+    width: 100%;
+    height: 100%;
+    background: white;
+  }
+  #menu2476 > div.wnHorizontal > div, #menu2476 > div.wnHorizontal > div > div{
+    width: 100%;
+    height: 100%;
+  }
+  #menu2476  UL:first-child > LI{
+    margin-top: 25px;
+    line-height: 45px;
+    height: 55px;
+    text-align: center;
+  }
+  .wnMainMenu .wnHorizontal LI{
+    float: none;
+  }
+  #menu2476 ul:first-child A
+  {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  #menu2476  LI.wnOn A, #menu2476 LI.wnOn .wnSublevel LI.wnOn A, #menu2476 LI.wnOn .wnSublevel LI.wnOn .wnLevel3 LI.wnOn A{
+    color: #707070;
+  }
+  #menu2476 ul  ul  LI.wnOn A, #menu2476 ul ul LI.wnOn .wnSublevel LI.wnOn A{
+    font-size: 13px !important;
+  }
+  #menu2476 ul  ul  LI A, #menu2476 ul ul LI .wnSublevel LI A{
+    font-size: 13px !important;
+  }
+  #menu2476 .wnLevel1 LI.wnHasSublevel .wnMiddle SPAN{
+    background: transparent;
+  }
+  #menu2476 UL > li:hover > ul.wnLevel2.wnSublevel{
+    display: block;
+  }
+  #menu2476 UL > li > ul, .wnLevel2.wnSublevel{
+    top: 60px !important;
+    left: -340px !important;
+    width: 1200px !important;
+    height: 30px !important;
+    background: #F0F0F0 !important;
+  }
+  #menu2476 .wnSublevel .wnFirstNode{
+    border-top: none;
+  }
+  #menu2476 UL > li > ul a  {
+    color: #707070 !important;
+    border: none !important;
+    font-size: 13px;
+    text-transform: capitalize !important;
+    line-height: 30px;
+  }
+  .wnMainMenu .wnDynamic .wnSublevel, .wnMainMenu .wnDynamic .wnSublevel SPAN{
+    width: auto;
+  }
+  #menu2476 UL:first-child > LI.wnOn A{
+    color: black;
+  }
+  #menu2476 UL LI.wnOn{
+    background: #F0F0F0 !important;
+  }
+  #menu2476 .wnSublevel A:hover{
+    color: #886957 !important;
+  }
+  #WNBranding > div > div.nav-custom.scroll-nav{
+    position: fixed;
+    background: white;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 100000;
+  }
+  #WNMenuCol1.scroll-nav{
+    width: 980px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  #menu2476 UL > li > ul.wnLevel2.wnSublevel.scroll-nav{
+    left: 0px !important;
+    width: 980px !important;
+  }
+  /* Start the feature and most popular */
+  div.dev-sitewide-FM h3 {
+    color: #b20e0e;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0px;
+    height: 30px;
+    padding-left: 15px;
+    background: #f2f1f1;
+    line-height: 30px;
+  }
+  div.dev-sitewide-FM ul{
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 2px;
+    margin: 0px;
+  }
+  div.dev-sitewide-FM ul h5.headline.hasClip:after{
+    content: ' ';
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/play-inline.png) white center center no-repeat;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  div.dev-sitewide-FM ul h5.headline {
+    font-size: 13px;
+    font-weight: bold;
+    color: #434343;
+    width: 180px;
+    margin: 0px;
+    float: left;
+  }
+  div.dev-sitewide-FM ul div.image{
+    width: 97px;
+    height: 57px;
+    float: right;
+  }
+  div.dev-sitewide-FM ul li{
+    padding: 20px 10px 20px 0px;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  div.dev-sitewide-FM ul li:last-child{
+    border-bottom: none;
+  }
+  div.dev-sitewide-FM ul li:first-child{
+    padding-top: 15px;
+  }
+
+  div.dev-sitewide-FM {
+    margin-bottom: 30px;
+  }
+  /* Start the weather col 4 */
+  #CDEV-col4-weather > div.headline > h1{
+    color: #b20e0e;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0px;
+    height: 30px;
+    padding-left: 15px;
+    background: #f2f1f1;
+    line-height: 30px;
+  }
+  #CDEV-col4-weather .temp-radar {
+    height: 100px;
+    width: 100%;
+    display: table;
+  }
+  #CDEV-col4-weather .temp-radar div {
+    display: table-cell;
+    width: 50%;
+  }
+  #CDEV-col4-weather .temp-radar div:first-child{
+    padding-left: 11px;
+    padding-top: 15px;
+  }
+  #CDEV-col4-weather > div.weather-detail > div.temp-radar > div.image > span:nth-child(1){
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  #CDEV-col4-weather > div.weather-detail > div.temp-radar > div.image > span:nth-child(2){
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 25px;
+    line-height: 55px;
+  }
+  #CDEV-col4-weather > div.weather-detail > div.temp-radar > div.image > span:nth-child(3){
+    clear: both;
+    display: block;
+    text-align: center;
+    padding-right: 25px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #CDEV-col4-weather .temp-radar div:last-child{
+    width: 117px;
+    height: 68px;
+  }
+  #CDEV-col4-weather .feelslike-hl {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  #CDEV-col4-weather > div.weather-detail > div.feelslike-hl > span:nth-child(2){
+    padding-left: 28px;
+  }
+  #CDEV-col4-weather .pre-hum {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  #CDEV-col4-weather > div.weather-detail > div.pre-hum > span:nth-child(2){
+    padding-left: 40px;
+  }
+  #CDEV-col4wx{
+    display: none;
+  }
+  #CDEV-col4-weather > div.more-infor{
+    height: 22px;
+    line-height: 22px;
+    display: table;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #CDEV-col4-weather > div.more-infor a{
+    display: table-cell;
+  }
+  #CDEV-col4-weather > div.more-infor > a:nth-child(1){
+    background: #9C1013;
+    color: white !important;
+    text-align: center;
+  }
+  #CDEV-col4-weather > div.more-infor > a:nth-child(1) span{
+    color: white !important;
+  }
+  #CDEV-col4-weather > div.more-infor > a:not(:nth-child(1)) span{
+    padding: 2px;
+    border-bottom: 2px solid #cac3c3;
+    padding-bottom: 0px;
+  }
+  #CDEV-col4-weather > div.more-infor > a:not(:nth-child(1)):before{
+    content: ' ';
+    padding-right: 4px;
+    padding-left: 0px;
+    border-left: 2px solid #8A8A8A;
+    height: 13px;
+    display: inline-block;
+  }
+
+  #CDEV-col4-weather > div.more-infor span {
+    color: #8A8A8A;
+  }
+  div#CDEV-col4-weather {
+    margin-bottom: 30px;
+  }
+  .columnsall .columns a:hover{
+      text-decoration: none;
+  }
+  /* Start the submit news form */
+  div.submit-news-form {
+    background: #E2E2E2;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 30px;
+  }
+  .submit-news-form > h5{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .submit-news-form > div.infor-login{
+    margin-bottom: 25px;
+    padding-left: 10px;
+  }
+  .submit-news-form > div > span:nth-child(1){
+    font-size: 11px;
+    color: #706f6f;
+  }
+  .submit-news-form > div > span:nth-child(2){
+    padding-left: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #706f6f;
+  }
+  .submit-news-form > div > span:nth-child(2) a{
+    text-transform: capitalize;
+    color: #46719f;
+    font-size: 11px;
+    text-decoration: underline;
+  }
+  .submit-news-form  input{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    width: calc(100% - 20px);
+    height: 25px;
+  }
+  .submit-news-form textarea{
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80px;
+  }
+  .submit-news-form  label{
+    display: block;
+    color: #706f6f;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .submit-news-form > form > input[type="submit"]{
+    width: 100%;
+    background: #3A9516;
+    height: 40px;
+    border: none;
+    margin: 0px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+  }
+  .submit-news-form .upload-file {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+  }
+  .submit-news-form > form > div > span{
+    background: #aeaeae;
+    padding: 3px 55px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #4c4c4c;
+    cursor: pointer;
+  }
+  /* override submit form */
+  div#DisplaySizeId64.override-submit-form {
+    background: #e2e2e2;
+  }
+  #DisplaySizeId64 > ul > li{
+    padding: 0px;
+  }
+  #DisplaySizeId64 > ul > li > h4.override-submit-form{
+    margin: 0px;
+    margin-bottom: 21px;
+    font-size: 18px;
+    padding-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 24px;
+  }
+  #DisplaySizeId64 > ul input[type="text"].override-submit-form {
+    margin-bottom: 5px;
+    margin-right: 0px;
+    display: block;
+    width: calc(100% - 16px);
+    height: 25px;
+    margin-left: 0px;
+    border: none;
+  }
+  #DisplaySizeId64 > ul textarea.override-submit-form {
+    margin-bottom: 5px;
+    margin-right: 0px;
+    display: block;
+    width: calc(100% - 16px);
+    height: 80px;
+  }
+  #DisplaySizeId64  div.wnSubmit.wnFormField.override-submit-form{
+    width: 100%;
+  }
+  #DisplaySizeId64 > ul div.memberinfo > div > h4 > div.wnMemberNonuser > label.override-submit-form{
+    color: #706f6f;
+    text-transform: uppercase;
+    word-break: break-word;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    display: block;
+    font-size: 14px;
+  }
+  #DisplaySizeId64 > ul input[type="submit"].override-submit-form {
+    width: calc(100% + 10px);
+    background: #3A9516;
+    height: 40px;
+    border: none;
+    margin: 0px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+  }
+  #DisplaySizeId64  ul div.wnFormField > label.Escaped.override-submit-form{
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  #DisplaySizeId64 > ul div.wnSubmit.wnFormField.override-submit-form{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  #DisplaySizeId64 > ul  div.wnContent.summary > span.text.override-submit-form{
+    display: inline-block;
+    float: left;
+    width: 45%;
+  }
+  #DisplaySizeId64 > ul  div.wnContent.summary > span.text p.override-submit-form {
+    margin: 0px;
+    font-size: 11px;
+  }
+
+  #DisplaySizeId64  ul li div.memberinfo > div.override-submit-form{
+    width: 100%;
+    clear: both;
+  }
+
+  #DisplaySizeId64  ul li div.wnContent.summary > div.pmloginLink.override-submit-form{
+    width: 50%;
+    float: right;
+    margin: 0px;
+  }
+  #DisplaySizeId64  ul li div.wnContent.summary > div > div.wnMemberNonuser > label.override-submit-form{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #DisplaySizeId64  ul li div.wnContent.summary > div > div.wnMemberNonuser > a.wnMemberLogin.override-submit-form{
+    font-size: 10px;
+    color: #3c97da;
+  }
+  #DisplaySizeId64  ul li div div > select.override-submit-form{
+    width: calc(95% - 2px);
+    margin-bottom: 5px;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+  }
+  #DisplaySizeId64 > ul > li > div > div.override-submit-form {
+    margin-right: 10px;
+  }
+  #DisplaySizeId64 > ul > li > div > div.override-submit-form >* {
+    margin-left: 14px;
+  }
+  #DisplaySizeId64 > ul > li > div > div  h4 > label.override-submit-form {
+    color: #706f6f;
+    text-transform: uppercase;
+    word-break: break-word;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  #DisplaySizeId64 > ul div.wnContent.summary.override-submit-form > div > div.wnMemberUser{
+    text-align: right;
+  }
+  #DisplaySizeId64 > ul div.wnContent.summary.override-submit-form > div > div.wnMemberUser > a{
+    font-size: 12px;
+    color: #3c97da;
+  }
+  #DisplaySizeId64 > ul div.memberinfo > div > h4 > div.wnMemberUser > label{
+    color: #706f6f;
+    text-transform: uppercase;
+    word-break: break-word;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+
+  /* Start the Weather page */
+  /* hide */
+  .wnDVWxFullForecast.wnWxHorizontal.wnDSContainer-standard.weather-override,
+  div#DisplaySizeId7.weather-override {
+      display: none !important;
+  }
+
+  div#weather-forecast {
+      margin-top: 5px;
+      width: 980px;
+      background: white;
+      padding: 20px;
+      padding-bottom: 0px;
+      border: 1px solid #e7e7e7;
+  }
+
+  div#weather-forecast-detail {
+      float: left;
+      width: 465px;
+      color: #3c3c3c;
+  }
+
+  div#weather-forecast-detail h4 {
+      margin: 0px;
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+
+  div#weather-forecast-detail .zipcode-search {
+      width: 100%;
+  }
+
+  div#weather-forecast-detail .zipcode-search input[type="text"] {
+      width: 310px;
+      height: 27px;
+      padding-left: 10px;
+  }
+
+  div#weather-forecast-detail .zipcode-search input[type="button"] {
+      border: none;
+      height: 27px;
+      padding: 0px;
+      width: 80px;
+      color: white;
+      float: right;
+      font-weight: bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      background: #989897;
+      outline: none;
+      ;
+  }
+
+  div#weather-forecast-detail span.current {
+      font-size: 22px;
+      font-weight: bold;
+      color: #484343;
+      margin: 13px 0px;
+      display: block;
+  }
+
+  div#weather-forecast-detail .details {
+      color: #666666;
+      font-weight: bold;
+  }
+
+  div#weather-forecast-detail .details ul {
+      padding: 0px;
+      list-style: none;
+      margin-top: 11px;
+      width: 245px;
+      float: left;
+  }
+
+  div#weather-forecast-detail .details ul li {
+      line-height: 1.7;
+      font-size: 17px;
+  }
+
+  div#weather-forecast-detail .details ul li span:nth-of-type(1) {
+      display: inline-block;
+      width: 120px;
+  }
+
+  div#weather-forecast-detail .details ul li span:nth-of-type(2) {
+      font-weight: 100;
+  }
+
+  div#weather-forecast-video {
+      background: #f0f0f0;
+      float: right;
+      width: 455px;
+  }
+
+  #video-details {
+      background: gray;
+      height: 257px;
+      width: 455px;
+      /*position: relative;*/
+  }
+
+  div#img-weather {
+      margin-top: 11px;
+      height: 110px;
+      width: 150px;
+      position: relative;
+  }
+  #weather-forecast-detail > div.lagre-infor > div.temp-skype > span{
+    display: block;
+  }
+  #weather-forecast-detail > div.lagre-infor > div.temp-skype > span.temperature{
+    font-size: 88px;
+    font-weight: bold;
+    display: block;
+    color: #9A0C11;
+  }
+  #weather-forecast-detail > div.lagre-infor > div.temp-skype > span.skype{
+    font-size: 20px;
+    width: 300%;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+  div#img-weather div {
+      margin: 0;
+      position: absolute;
+      top: 44%;
+      left: 50%;
+      margin-right: -50%;
+      -ms-transform: translate(-50%, -50%);
+      /* IE 9 */
+      -webkit-transform: translate(-50%, -50%);
+      /* Safari */
+      transform: translate(-50%, -50%);
+  }
+
+  div#img-weather img {
+      display: block;
+      margin: 0 auto;
+  }
+
+  div#meterologistForecast {
+    width: 100%;
+    padding: 25px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+  }
+
+  div#meterologistForecast h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #b20e0e;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+
+  #meterologistForecast>div.bylines>div.contact-info a {
+      display: inline-block;
+      width: 23px;
+      height: 24px;
+      margin-right: 5px;
+  }
+
+  #meterologistForecast>div.bylines>div.contact-info a:last-child {
+      margin-right: 0px;
+  }
+
+  #meterologistForecast>div.bylines>div.contact-info {
+      width: 80px;
+      height: 25px;
+      margin-top: 7px;
+      background: url(http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/socials_icon_3.PNG) center no-repeat;
+      background-size: contain;
+  }
+
+  div#meterologistForecast .info {
+      display: inline-block;
+      float: right;
+      width: 418px;
+      color: #434343;
+  }
+
+
+
+  div#meterologistForecast .bylines div {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #b20e0e;
+  }
+
+  div#meterologistForecast .bylines div:nth-of-type(2) {
+      color: #575757;
+      font-size: 13px;
+      font-weight: 100;
+  }
+
+  div#meterologistForecast .profile-image {
+      width: 170px;
+      margin-bottom: 12px;
+  }
+
+  div#meterologistForecast div.contact-info a img {
+      width: 25px;
+      height: 25px;
+      margin: 5px;
+  }
+
+  div#meterologistForecast div.info h5 {
+    margin-bottom: 0px;
+    color: #b1a4a4;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  #meterologistForecast>div.todays-forecast.clearfix>div.info>p {
+      font-size: 12px;
+      color: #5f5252;
+  }
+
+  #meterologistForecast>div.todays-forecast.clearfix>div.info>a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 12px;
+  }
+
+  #meterologistForecast>div.todays-forecast.clearfix>div.info>span {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: #b20e0e;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  div#meterologistForecast div.info p {
+      font-size: 14px;
+      margin-top: 9px;
+      color: #343030;
+  }
+
+  .wnBlock.displaySize {
+      border: none;
+  }
+
+  span.text.siteDefault {
+      color: #1a0067 !important;
+      padding-left: 15px;
+  }
+
+  .hourly-forecast-wrapper.clearfix {
+      width: 100%;
+      height: 172px;
+      background: white;
+      position: relative;
+  }
+
+  .wnGroup.contentGroup.collapsible.closed {
+      margin-top: 0px;
+      height: auto;
+  }
+  .hourly-forecast-wrapper.clearfix ul.hourly-rail li {
+      display: inline-block;
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 100px;
+      width: 72px;
+  }
+
+  .hourly-forecast-wrapper.clearfix ul.hourly-rail {
+      list-style: none;
+      display: table;
+      padding: 0px 21px;
+      width: 100%;
+      margin: 0px;
+      margin-top: 10px;
+  }
+
+  .hourly-forecast-wrapper.clearfix ul.hourly-rail li div {
+      margin-top: 3px;
+  }
+
+  div#hourlyForecast {
+      position: relative;
+  }
+
+  .hourly-forecast-wrapper.clearfix .wind-speed.clearfix,
+  .hourly-forecast-wrapper.clearfix .temperature,
+  .hourly-forecast-wrapper.clearfix .precip-chance {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #737373;
+  }
+
+  #hourlyForecast>span:nth-child(3),
+  #hourlyForecast>span:nth-child(1) {
+      position: absolute;
+      cursor: pointer;
+  }
+
+  .hourly-forecast-wrapper.clearfix .temperature {
+      font-size: 16px !important;
+      font-weight: bold !important;
+  }
+
+  .hourly-forecast-wrapper.clearfix .temperature,
+  .hourly-forecast-wrapper.clearfix .time {
+      font-weight: bold;
+      color: #504d4d;
+  }
+
+  #hourlyForecast span:first-child {
+      top: 37px;
+      left: 8px;
+      width: 27PX;
+  }
+
+  #hourlyForecast span:last-child {
+      top: 37px;
+      right: 8px;
+      width: 27PX;
+  }
+
+  body.simple-a .displaySize {
+      font-size: 1em;
+  }
+
+  #weather-forecast>div.zipcode-search>input[type="text"]:nth-child(1) {
+      height: 27px;
+      width: 260px;
+      font-size: 13px;
+      padding-left: 10px;
+      border: 1px solid #DBDBDB;
+      outline: none;
+      vertical-align: middle;
+  }
+
+  .zipcode-search input[type="button"] {
+      border: none;
+      height: 27px;
+      padding: 0px;
+      width: 40px;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      background: #626262;
+      outline: none;
+      vertical-align: middle;
+  }
+
+  #weather-forecast-detail>div.lagre-infor>span.temperature {
+      font-size: 88px;
+      font-weight: bold;
+      color: #b20e0e;
+  }
+  #weather-forecast-detail>div.lagre-infor > *{
+    display: table-cell;
+    position: relative;
+  }
+
+  #weather-forecast-detail>div.lagre-infor>span:nth-child(2n) {
+      display: block;
+  }
+
+  #weather-forecast-detail>div.lagre-infor {
+      text-align: center;
+      display: table;
+      width: 50%;
+      float: left;
+  }
+  #weather-forecast-detail > div.skyp-low-high{
+    display: inline-block;
+    width: 45%;
+    font-size: 14px;
+    height: 110px;
+    text-align: center;
+  }
+  #weather-forecast-detail > div.skyp-low-high span{
+    display: block;
+  }
+  #weather-forecast-detail > div.skyp-low-high > span.low-high{
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  #weather-forecast-detail > div.skyp-low-high > span.pre{
+
+  }
+
+  #img-weather>div>span {
+      display: block;
+      margin-top: 26px;
+      font-size: 20px;
+  }
+
+  #weather-forecast-detail>div:nth-child(5)>span.low-high>b:nth-child(2) {
+      padding-left: 10px;
+  }
+
+  #weather-forecast-detail>div.lagre-infor>span.low-high {
+      margin-top: 25px;
+  }
+
+  #weather-forecast-detail>ul {
+      list-style: none;
+      display: table;
+      width: 100%;
+      padding-left: 15px;
+  }
+
+  #weather-forecast-detail>ul>li {
+      display: table-cell;
+      padding-bottom: 10px;
+      text-align: center;
+      width: 25%;
+  }
+  #weather-forecast-detail>ul>li:not(:first-child){
+    border-left: 1px solid #d9d8d8;
+  }
+  #weather-forecast-detail > ul.more-info{
+    margin-top: 25px;
+  }
+  #weather-forecast-detail > ul.sun-moon{
+    margin-top: 20px;
+  }
+
+  #weather-forecast-detail>ul>li>span {
+      display: block;
+  }
+
+  #img-weather>div>span,
+  #weather-forecast-detail>div:nth-child(5)>span.low-high>b {
+      color: black;
+      font-weight: bold;
+  }
+
+  #weather-forecast-detail>div:nth-child(5) {
+      display: table;
+      padding-top: 5px;
+      width: 100%;
+  }
+
+  #weather-forecast-detail>div:nth-child(5) span {
+      display: table-cell;
+      width: 50%;
+      text-align: left;
+  }
+
+  #weather-forecast-detail>div:nth-child(5)>span.sky {
+      color: #110f0f;
+      font-size: 25px;
+      padding-left: 20px;
+      text-align: left;
+  }
+
+  /* day forecast */
+
+  #CDEV-daily-forecast {
+      position: relative;
+      width: 650px;
+      border-bottom: 1px solid #e4e4e4;
+      border-top: 1px solid #e4e4e4;
+  }
+  div#dailyForecast {
+    margin-top: 20px;
+  }
+
+  .quick-group {
+      width: 650px;
+      height: 210px;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .quick-rail {
+      position: relative;
+      left: 0;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 20000em;
+      list-style: none;
+  }
+
+  .detail-group {
+      background-color: #f5f5f5;
+      width: 650px;
+      height: 230px;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .quick-day {
+      width: 140px;
+      height: 210px;
+      position: relative;
+      float: left;
+      border-left: 1px solid #e4e4e4;
+      background-color: #fff;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+
+  .quick-day.active {
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid transparent;
+      background-color: #f5f5f5;
+      cursor: default;
+  }
+
+  .quick-rail .quick-day:first-child {
+      border-left: 1px solid transparent;
+  }
+
+  .quick-day .day {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: black;
+  }
+
+  .quick-day .date {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #7e7e7e;
+  }
+
+  .quick-day .wx-icon {
+      text-indent: -999em;
+      background-image: url("about:blank;");
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 50px;
+      margin: 5px auto;
+  }
+
+  .quick-day .sky-condition {
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      font-weight: normal;
+      color: #7e7e7e;
+      margin: 5px 0;
+      min-height: 30px;
+  }
+
+  .quick-day .hi-temp {
+      font-family: 'Roboto', sans-serif !important;
+      font-size: 35px !important;
+      font-weight: 700 !important;
+      color: #3c3c3c !important;
+  }
+
+  .quick-day .lo-temp {
+      font-family: 'Roboto', sans-serif !important;
+      font-size: 20px !important;
+      font-weight: bold;
+      color: #757575 !important;
+  }
+
+  .quick-day .precip-chance {
+      font-family: 'Roboto', sans-serif !important;
+      font-size: 14px !important;
+      font-weight: 400 !important;
+      color: #363636 !important;
+  }
+
+  .quick-day .precip-chance {
+      background-image: url("http://ftpcontent.worldnow.com/professionalservices/clients/quincy/images/wx-precip-icon.png");
+      background-repeat: no-repeat;
+      background-position: 30px center;
+      padding-left: 10px;
+      margin-top: 5px;
+  }
+
+  .detail-day {
+      background-color: #f5f5f5;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 230px;
+      display: none;
+      cursor: pointer;
+  }
+
+  .detail-day.active {
+      display: block;
+      cursor: default;
+  }
+
+  .detail-day .detail {
+      background-color: #f5f5f5;
+      width: 100%;
+      height: 100%;
+      display: table;
+  }
+
+  .detail-day .column {
+      display: table-cell;
+      width: 33.3333333333333%;
+      padding: 15px 10px;
+      border-left: 1px solid #e4e4e4;
+      vertical-align: top;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+
+  .detail-day .column.first {
+      border-left: 1px solid transparent;
+  }
+
+  .detail-day .column.last {
+      background: rgb(255, 255, 255);
+      /* Old browsers */
+      background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(216, 214, 214, 1) 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(216, 214, 214, 1)));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(216, 214, 214, 1) 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(216, 214, 214, 1) 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(216, 214, 214, 1) 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(216, 214, 214, 1) 100%);
+      /* W3C */
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d8d6d6', GradientType=0);
+      /* IE6-9 */
+  }
+
+  .detail-day .column div {
+      margin-bottom: 10px;
+      font-family: arial, sans-serif;
+      font-size: 12px;
+  }
+
+  .detail-day .column div span {
+      display: inline-block;
+      font-weight: normal;
+      color: #7e7e7e;
+      width: 45%;
+  }
+
+  .detail-day .column div .name {
+      float: left;
+      width: 45%;
+  }
+
+  .detail-day .column div .value {
+      float: left;
+      width: 45%;
+      font-weight: bold;
+      color: #3c3c3c;
+  }
+
+  .detail-day .column div.sunrise .value {
+      width: 80px;
+      padding-left: 25px;
+      background-image: url("http://ftpcontent.worldnow.com/professionalservices/clients/quincy/images/wx-sunrise.png");
+      background-repeat: no-repeat;
+      background-position: left center;
+  }
+
+  .detail-day .column div.sunset .value {
+      width: 80px;
+      padding-left: 25px;
+      background-image: url("http://ftpcontent.worldnow.com/professionalservices/clients/quincy/images/wx-sunset.png");
+      background-repeat: no-repeat;
+      background-position: left center;
+  }
+
+  .detail-day .column div.moonphrase .value {
+      width: 80px;
+      padding-left: 25px;
+      background-image: url("http://ftpcontent.worldnow.com/professionalservices/clients/quincy/images/wx-moon.png");
+      background-repeat: no-repeat;
+      background-position: left top;
+  }
+
+  .detail-day .column.last div .name {
+      float: none;
+      width: 100%;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+  }
+
+  .detail-day .column.last div .value {
+      float: none;
+      width: 100%;
+      font-weight: normal;
+      color: #7e7e7e;
+      line-height: 18px;
+  }
+
+  .cdev-weather-footer {
+      padding: 10px 0;
+      font-family: arial, sans-serif;
+      font-size: 11px;
+      color: #7e7e7e;
+  }
+
+  .cdev-weather-footer .geolocation {
+      float: left;
+      position: relative;
+      width: 100%;
+  }
+
+  .cdev-weather-footer .geolocation span.last-update {
+      float: right;
+      width: auto;
+      position: absolute;
+      height: auto;
+      display: block;
+      right: 0px;
+      top: 0px;
+      font-style: italic;
+  }
+
+  .cdev-weather-footer .provider {
+      float: right;
+  }
+
+  .cdev-weather-footer .separator {
+      margin: 0 15px;
+  }
+
+  .cdev-weather-footer .detail-updated {
+      float: right;
+  }
+
+
+  /* mobile style */
+
+  .wnMobile .weather.abbreviated {
+      display: none;
+  }
+
+  .wnMobile #CDEV-daily-forecast {
+      width: 100%;
+      min-width: 320px;
+      max-width: 768px;
+      margin: 0 auto;
+  }
+
+  .wnMobile #CDEV-daily-forecast .header {
+      font-family: 'Roboto', sans-serif;
+      border-bottom: 1px solid #e4e4e4;
+      background-color: transparent;
+  }
+
+
+  /*
+  .wnMobile #CDEV-daily-forecast .location-dropdown {
+    display: none;
+  }
+  */
+
+  .wnMobile #CDEV-current-condition {
+      width: 100%;
+  }
+
+  .wnMobile .current-condition-group {
+      position: relative;
+      border-top: none;
+  }
+
+  .wnMobile .current-quick-group {
+      float: none;
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+  }
+
+  .wnMobile .current-quick-group .precip-chance {
+      background-position: 35% center;
+  }
+
+  .wnMobile .todays-forecast-group {
+      float: none;
+      width: 100%;
+      height: auto;
+  }
+
+  .wnMobile .todays-forecast-group .todays-forecast {
+      height: auto;
+  }
+
+  .wnMobile .current-detail-group {
+      float: none;
+      width: 100%;
+  }
+
+  .wnMobile .current-detail-group .column div .value {
+      float: left;
+  }
+
+  .wnMobile .hourly-group {
+      float: none;
+      width: 100%;
+      height: 300px;
+      border-left: none;
+      border-top: 1px solid #e4e4e4;
+  }
+
+  .wnMobile .hourly-group .hourly {
+      width: 100%;
+  }
+
+  .wnMobile #CDEV-daily-forecast .arrow.hourly-arrow.top,
+  .wnMobile #CDEV-daily-forecast .arrow.hourly-arrow.bottom {
+      width: 100%;
+  }
+
+  .wnMobile #CDEV-daily-forecast {
+      width: 100%;
+  }
+
+  .wnMobile .quick-group {
+      width: 100%;
+  }
+
+  .wnMobile .detail-group {
+      width: 100%;
+      height: auto;
+  }
+
+  .wnMobile .detail-day {
+      position: relative;
+      width: 100%;
+      height: auto;
+      cursor: default;
+  }
+
+  .wnMobile .detail-day .column {
+      display: block;
+      width: 100%;
+      border-left: none;
+  }
+
+  .wnMobile .detail-day .column.last {
+      background: none;
+  }
+
+
+  /* update for mobile */
+
+  .wnMobile #CDEV-daily-forecast .location-dropdown {
+      display: block;
+  }
+
+  @media (min-width:480px) {
+      .wnMobile #WNCol23 {
+          display: block;
+      }
+      .wnMobile #CDEV-daily-forecast {
+          max-width: 768px;
+          margin: 0 auto;
+      }
+      .wnMobile #CDEV-daily-forecast .header {
+          background-image: none;
+      }
+      .wnMobile .current-quick-group,
+      .wnMobile .current-detail-group,
+      .wnMobile .hourly-group {
+          max-width: 480px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .wnMobile .detail-day {
+          max-width: 480px;
+      }
+      .wnMobile .hourly .column.second {
+          max-width: 120px;
+      }
+      .wnMobile .hourly .precip-chance {
+          padding-left: 20px;
+          background-position: center center;
+      }
+      .wnMobile .current-quick-group .precip-chance {
+          padding-left: 10px;
+      }
+      .wnMobile .detail-day .column div .name {
+          max-width: 120px;
+      }
+  }
+
+  @media (max-width:375px) {
+      .wnMobile .current-quick-group .temperature {
+          margin-bottom: 0;
+      }
+      .wnMobile .hourly .column.second {
+          max-width: 120px;
+      }
+      .wnMobile .current-quick-group .today-hi,
+      .wnMobile .current-quick-group .today-lo {
+          display: block;
+          text-align: right;
+          line-height: 2;
+      }
+      .wnMobile .hourly .precip-chance {
+          padding-left: 20px;
+          background-position: center center;
+      }
+      .wnMobile .current-quick-group .precip-chance {
+          padding-left: 10px;
+      }
+      .wnMobile .detail-day .column div .name {
+          max-width: 120px;
+      }
+  }
+
+  #CDEV-daily-forecast .arrow {
+      background-repeat: no-repeat;
+      display: block;
+  }
+
+  #CDEV-daily-forecast .arrow.hourly-arrow {
+      background-image: url("http://ftpcontent.worldnow.com/wncustom/custom/wdrb/2014/images/wx-hourly-arrow.png");
+      width: 280px;
+      height: 20px;
+      overflow: hidden;
+      position: absolute;
+  }
+
+  #CDEV-daily-forecast .arrow.hourly-arrow:hover {
+      cursor: pointer;
+  }
+
+  #CDEV-daily-forecast .arrow.hourly-arrow.top {
+      left: 0;
+      top: 0;
+      background-position: center 0;
+  }
+
+  #CDEV-daily-forecast .arrow.hourly-arrow.bottom {
+      left: 0;
+      bottom: 0;
+      background-position: center -20px;
+  }
+
+  #CDEV-daily-forecast .arrow.day-arrow {
+      background-image: url("http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/wx-day-arrow.png");
+      width: 60px;
+      height: 210px;
+      overflow: hidden;
+      position: absolute;
+  }
+
+  #CDEV-daily-forecast .arrow.day-arrow:hover {
+      cursor: pointer;
+  }
+
+  #CDEV-daily-forecast .arrow.day-arrow.left {
+      left: 0;
+      top: 0;
+      background-position: -8px center;
+  }
+
+  #weather-forecast-detail>div:nth-child(5)>span.low-high {
+      padding-left: 4%;
+  }
+
+  #CDEV-daily-forecast .arrow.day-arrow.right {
+      right: 0;
+      top: 0;
+      background-position: -63px center;
+  }
+
+  #CDEV-daily-forecast .arrow.hidden {
+      display: none;
+  }
+
+  .header-cross {
+      width: 100%;
+      height: 5px;
+      background: #989898;
+      display: block;
+      margin-bottom: 5px;
+  }
+  #DisplaySizeId80 .header-cross {
+      background: transparent;
+      height: 0px;
+  }
+  h3.headline-kmir-stand{
+    color: #b20e0e;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0px;
+    height: 35px;
+    padding-left: 15px;
+    background: #f2f1f1;
+    line-height: 35px;
+  }
+  #weather-forecast-detail > div.zipcode-tabs{
+    display: table;
+  }
+  #weather-forecast-detail > div.zipcode-tabs span{
+    display: table-cell;
+    font-size: 14px;
+    color: #483e3e;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  #weather-forecast-detail > div.zipcode-tabs span:not(:first-child):before{
+    content: '|';
+    font-size: 14px;
+    display: inline-block;
+    margin-top: -1px;
+    padding-left: 5px;
+    padding-right: 4px;
+    vertical-align: top;
+  }
+  #weather-forecast-detail > div.zipcode-tabs span.active{
+    color: #b20e0e;
+    font-weight: bold;
+  }
+  .wnLevel2.wnSublevel  span  a{
+    height: 30px  !important;
+  }
+  #meterologistForecast > div.todays-forecast.clearfix > div > div{
+    height: 160px;
+    overflow-y: hidden;
+  }
+  #CDEV-daily-forecast ul li  div.more-info-day-daily{
+    position: absolute;
+    top: 51px;
+    padding-top: 5px;
+    left: 0px;
+    width: 100%;
+    background: #f5f5f5;
+    display: none;
+  }
+  #CDEV-daily-forecast  ul li div.more-info-day-daily > *{
+    line-height: 26px;
+    font-weight: bold;
+  }
+  div.more-info-day-daily > div:nth-child(6){
+    color: red;
+    cursor: pointer;
+  }
+  #WNCol23  div.daily-forecast-wrapper{
+    margin-bottom: 15px;
+  }
+  /* Start headline box col 4 of weather page  */
+  div.dev-sitewide-FM ul li.override-weather {
+    padding: 15px 10px 20px 0px;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  /*  Start meet the team col 4 */
+  #DisplaySizeId68.meet-the-team-col4{
+    background: #202020;
+  }
+  .meet-the-team-col4 > h3{
+    margin: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #202020;
+    color: white;
+    font-weight: bold;
+  }
+  .meet-the-team-col4 > ul > li > a:nth-child(1) > div{
+    width: 108px;
+    height: 108px;
+    background-size: contain !important;
+    float: left;
+  }
+  .meet-the-team-col4 > ul > li span.name, .meet-the-team-col4 > ul > li span.level {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 120px;
+    display: block;
+  }
+  .meet-the-team-col4 > ul > li span.level{
+    font-weight: 100;
+    margin-top: 10px;
+  }
+  .meet-the-team-col4 .socials-links {
+    height: 30px;
+    margin-left: 120px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/socials_icon_3.PNG) left no-repeat;
+    position: relative;
+    margin-top: 20px;
+  }
+  .meet-the-team-col4 .socials-links a {
+    display: inline-block;
+    width: 28px;
+    height: 29px;
+    margin-right: 5px;
+  }
+  .meet-the-team-col4 > ul > li{
+    padding-left: 25px !important;
+  }
+  /* Start the story page */
+  #WNAffKMIR #WNColsAll #WNCols23-4 #WNCol23 #WNContainerStory #WNStoryRelatedBox {
+    background-color: #FFFFFF;
+    float: right;
+    margin-left: 15px;
+    width: 220px;
+    max-width: 220px;
+  }
+  #DisplaySizeId3 > h1{
+    color: #b20e0e;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin: 0px;
+    height: 35px;
+    padding-left: 5px;
+    background: #f2f1f1;
+    line-height: 35px;
+    padding-top: 5px;
+    padding-bottom: 42px;
+  }
+  .wnImageWidth-180, .wnImageWidth-180 img {
+    width: 220px;
+  }
+  .displaySizeId3 ul li.wnItem {
+      border-bottom: 1px solid #e2e2e2;
+      padding: 8px 0px 8px 0px;
+  }
+
+  .displaySizeId3 ul li.story:last-child {
+      border-bottom: none;
+      padding: 5px 0px 5px 0px;
+  }
+
+  .displaySizeId3 .headline a {
+      font-size: 0.8em;
+      color: #414444;
+      text-decoration: none;
+  }
+
+  #DisplaySizeId3 ul li.wnItem.header {
+      padding: 0px;
+  }
+  #DisplaySizeId3 > ul > li.wnItem > h4:nth-child(3){
+    background-image: none !important;
+    padding-left: 5px;
+  }
+  #DisplaySizeId3 > ul > li.wnItem > h4:nth-child(3) > a > span{
+    color: #797A79;
+  }
+  #WNStoryByline.bylines .byline > span.author {
+    float: left;
+    color: #404040;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  #WNStoryByline > div > div.wn-anchor > a{
+    color: #b20e0e;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin: 0px;
+    height: 35px;
+    padding-left: 5px;
+    background: #f2f1f1;
+    line-height: 35px;
+    border: none;
+  }
+  #WNStoryByline{
+    background: #f2f1f1;
+    margin-bottom: 10px;
+    padding-top: 9px;
+    padding-bottom: 4px;
+  }
+  #WNAffKMIR #WNColsAll #WNCols23-4 #WNCol23 #WNContainerStory #WNStoryHeader h3 {
+    font-weight: bold;
+    color: #3D3D3D;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  #WNAffKMIR #WNColsAll #WNCols23-4 #WNCol23 #WNContainerStory #WNStoryHeader .wnDate {
+    display: block;
+    height: 11px;
+  }
+  #WNStoryHeader > div.custom-date{
+    display: inline-block;
+  }
+  #WNStoryHeader > div.custom-date *{
+    color: #c2c0c0 !important;
+  }
+  #WNStoryUtils {
+    margin: 0px;
+  }
+   #divWNVideoCanvas801 {top:0px; left:0px; position:absolute} #divWNGallery801 {top:0px; left:0px; position:absolute} #divWNWidgetsContainer801 {position:relative}
+
+/*End giang.nguyen region*/
+
+
+/*Start nhan.tran region*/
+
+#WNAffKMIR {
+    font-size: 14px;
+    font-family: arial, verdana, sans-serif;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ffffff;
+    background-image: none;
+}
+
+.mainTopStory {
+    height: 356px;
+    background-size: cover!important;
+    position: relative;
+    cursor: pointer;
+}
+
+.iconPlay {
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    opacity: 0.8;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.71);
+    border-radius: 50%;
+    top: 45%;
+    left: 50%;
+    width: 120px;
+    margin-right: -50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.mainTopStory .mainTopStoryHealdine {
+    position: absolute;
+    min-height: 87px;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+}
+
+.mainTopStory .mainTopStoryHealdine a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.listTopStories {
+    margin-top: 15px;
+}
+
+.listTopStories ul {
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.listTopStories ul li {
+    display: table-cell;
+    width: 165px;
+    padding: 0px;
+    padding-right: 15px;
+}
+
+.listTopStories ul li:last-child {
+    padding: 0px;
+    width: 150px;
+}
+
+.listTopStories ul li a {
+    text-decoration: none;
+}
+
+.listTopStories ul li .item-thumbnail {
+    height: 84px;
+    background-size: cover!important;
+    width: 100%;
+}
+
+.mainTopStory .mainTopStoryHealdine a {
+    color: #fff!important;
+    text-decoration: none!important;
+    font-size: 28px!important;
+    font-weight: 500!important;
+}
+
+.listTopStories ul li div.headline.hasClip:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-dark.png) center center no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: bottom;
+    margin-left: 5px;
+    content: '';
+}
+
+.mainTopStory .mainTopStoryHealdine.hasClip:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-light.png) center center no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: baseline;
+    margin-left: 10px;
+    content: '';
+}
+
+.displaySize .headline {
+    border-width: 14px;
+    margin-top: 5px;
+}
+
+.listTopStories ul li div.headline h1 {
+    padding: 5px 0px 0px 0px;
+    display: inline;
+    color: #383636;
+    font-size: 15px;
+    min-height: 70px;
+    font-weight: 600;
+}
+
+#WNAffKMIR #WNColsAll .wnDSContainer-standard {
+    border-color: #fefefe;
+    background-color: #ffffff;
+    margin-right: 5px;
+}
+
+.time-ago {
+    font-size: 11px;
+    font-weight: 600;
+    color: #e40404;
+    margin-top: 5px;
+    display: block;
+}
+
+
+/* SLIDE SHOW */
+
+.displaySize.displaySizeId7 {
+    border-color: #ffffff;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #ffffff;
+}
+
+#WNSlideshowWrapper {
+    background-color: #222222;
+    position: relative;
+    margin: 30px 0px 30px 0px;
+}
+
+#WNSlideshowWrapper h1.title {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin: 0px;
+    padding: 12px;
+    padding-left: 20px;
+}
+
+#WNSlideshowWrapper .navigator {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+}
+
+#WNSlideshowWrapper .navigator .left-arrow {
+    width: 25px;
+    height: 25px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/arrow.PNG) center center no-repeat;
+    background-size: contain;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#WNSlideshowWrapper .navigator .right-arrow {
+    width: 25px;
+    height: 25px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/arrow.PNG) center center no-repeat;
+    background-size: contain;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    display: inline-block;
+    cursor: pointer;
+}
+
+#WNSlideshowWrapper .list-story-wrapper .slidelist-wrapper ul {
+    list-style: none;
+    padding: 0px;
+    height: 155px;
+}
+
+#WNSlideshowWrapper .list-story-wrapper .slidelist-wrapper {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px 10px auto;
+}
+
+#WNSlideshowWrapper .list-story-wrapper .slidelist-wrapper ul li {
+    display: table-cell;
+    padding-right: 12px;
+    width: 180px;
+}
+
+#WNSlideshowWrapper .list-story-wrapper .slidelist-wrapper ul li .list-story-item .item-thumbnail {
+    width: 147px;
+    height: 86px;
+    background-size: cover!important;
+}
+
+#WNSlideshowWrapper .list-story-wrapper .slidelist-wrapper ul li .item-info {
+    display: block;
+    overflow: hidden;
+}
+
+#WNSlideshowWrapper .list-story-wrapper .slidelist-wrapper ul li .item-info .headline {
+    display: block;
+}
+
+#WNSlideshowWrapper .list-story-wrapper .slidelist-wrapper ul li .item-info h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#DisplaySizeId7>div.footer-button>a>span {
+    display: block;
+    text-align: center;
+    background-color: #3a3a3a;
+    padding: 3px;
+    font-size: 17.4px;
+    font-weight: bold;
+    color: #acacac;
+    text-transform: uppercase;
+}
+
+#DisplaySizeId80 > div.footer-button {
+    display: block;
+    text-align: center;
+    background-color: #3a3a3a;
+    font-size: 17.4px;
+    font-weight: bold;
+    color: #acacac!important;
+    text-transform: uppercase;
+}
+
+#WNSlideshowWrapper .headline.hasClip h1:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-light.png) center center no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: bottom;
+    margin-left: 5px;
+    content: '';
+}
+
+
+/* LASTEST NEWS SECTION */
+
+#DisplaySizeId85 {
+    border: 0px;
+}
+
+#WNLastestVideosWrapper {
+    background-color: #222222;
+    position: relative;
+    margin: 0px;
+    width: 645px;
+}
+
+#WNLastestVideosWrapper h1.title {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin: 0px;
+    padding: 12px;
+    padding-left: 20px;
+}
+
+#WNLastestVideosWrapper .navigator {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+}
+
+#WNLastestVideosWrapper .navigator .left-arrow {
+    width: 25px;
+    height: 25px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/arrow.PNG) center center no-repeat;
+    background-size: contain;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#WNLastestVideosWrapper .navigator .right-arrow {
+    width: 25px;
+    height: 25px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/arrow.PNG) center center no-repeat;
+    background-size: contain;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    display: inline-block;
+    cursor: pointer;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px 57px auto;
+    max-height: 335px;
+    min-height: 168px;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper ul.child-list {
+    list-style: none;
+    padding: 0px;
+    min-height: 160px;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper ul.child-list li {
+    display: inline-table;
+    padding-right: 45px;
+    width: 147px;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper ul.child-list li:nth-child(3n) {
+    display: inline-table;
+    padding-right: 0px;
+    width: 147px;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper ul.child-list li .list-story-item .item-thumbnail {
+    width: 147px;
+    height: 86px;
+    background-size: cover!important;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper ul.child-list li .item-info {
+    display: block;
+    overflow: hidden;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper ul.child-list li .item-info .headline {
+    display: block;
+}
+
+#WNLastestVideosWrapper .list-story-wrapper .slidelist-wrapper ul.child-list li .item-info h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#DisplaySizeId85 > div.footer-button > a > span {
+    display: block;
+    text-align: center;
+    background-color: #3a3a3a;
+    font-size: 15.5px;
+    font-weight: bold;
+    color: #acacac;
+    text-transform: uppercase;
+}
+
+#WNLastestVideosWrapper .headline.hasClip h1:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-light.png) center center no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: bottom;
+    margin-left: 5px;
+    content: '';
+}
+
+
+
+/*  HEADLINE BOX 2A */
+#DisplaySizeId80>ul.category-override {
+    padding-left: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    background: white;
+}
+
+#DisplaySizeId80>ul>li.wnItem.header>h3>span.category-override {
+    font-size: 20px;
+    color: #b20e0e;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#DisplaySizeId80>ul>li.wnItem.header>h3.category-override {
+    background-color: #f2f1f1;
+    background-image: none;
+    padding: 0px;
+}
+
+#DisplaySizeId80>ul>li>a>span.img.category-override {
+    display: block;
+    width: 335px;
+    height: 188px;
+}
+
+#DisplaySizeId80>ul>li:nth-child(3).category-override {
+    display: table;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+#WNCol23 div.hourly-forecast-wrapper div.wnItem.header>h3>span {
+    text-transform: uppercase;
+}
+
+#DisplaySizeId80>ul>li:nth-child(3)>a.category-override {
+    display: inline-block;
+    float: left;
+}
+
+#DisplaySizeId80>ul>li:nth-child(3)>div.category-override {
+    display: block;
+    float: right;
+    width: 285px;
+}
+
+#DisplaySizeId80 .headline.category-override {
+    display: block;
+    margin: 0px;
+}
+
+#DisplaySizeId80 .headline.category-override.hasClip:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-dark.png) center center no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: bottom;
+    margin-left: 5px;
+    content: '';
+}
+
+#DisplaySizeId80>ul>li.wnItem.feature>div>span.summary.category-override {
+    display: block;
+    color: #797373;
+}
+
+#DisplaySizeId80>ul>li.wnItem.feature>div>h4>a.category-override {
+    text-decoration: none;
+    color: #423f3f;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+
+#DisplaySizeId80>ul>li.wnItem.feature>div>span:nth-child(3).category-override {
+    font-size: 11px;
+    font-style: italic;
+    color: #a99f9f;
+    padding: 15px 0px;
+    display: block;
+    margin-left: -5px;
+}
+
+#DisplaySizeId80>ul>li.table-align {
+    display: inline-block;
+    width: 335px;
+    vertical-align: text-top;
+    border-top: solid 1px #efeaea;
+}
+
+#DisplaySizeId80>ul>li.table-align:nth-child(5) {
+    width: 308px;
+}
+
+#DisplaySizeId80>ul>li:nth-child(8) {
+    width: 308px;
+}
+
+#DisplaySizeId80>ul>li.table-align div h4 a {
+    font-size: 13px !important;
+    color: #5D5D5D !important;
+}
+
+#DisplaySizeId80>ul>a {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: #e8e7e7;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #acacac;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#DisplaySizeId80>ul>li.wnItem.feature>div>span:nth-child(3).category-override::before {
+    content: '';
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/clock.PNG) bottom no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 17px;
+    vertical-align: top;
+}
+
+#DisplaySizeId80>ul>li.wnItem.feature>div>h4>a.category-override:hover {
+    color: #b20e0e !important;
+}
+
+
+/* HEADLINE BOX COL 2B */
+#DisplaySizeId82 {
+    border: 0px;
+}
+
+#DisplaySizeId82 .WNmoreNews {
+    display: inline-table;
+}
+
+#DisplaySizeId82 .WNmoreNews:nth-child(1) {
+    margin: 0px 10px 0px 0px;
+    width: 49%;
+}
+
+#DisplaySizeId82 .WNmoreNews:nth-child(2) {
+    margin: 0px;
+    width: 49%;
+    float: right;
+}
+
+#DisplaySizeId82 .headline {
+    text-decoration: none;
+    display: block!important;
+    text-transform: uppercase;
+    color: #b20e0e;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 20px;
+    background-color: #F0EFEF;
+}
+
+#DisplaySizeId82 .WNmoreNews .list-stories {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+#DisplaySizeId82 .WNmoreNews .list-stories li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#DisplaySizeId82 .WNmoreNews .list-stories li a {
+    text-decoration: none;
+    color: #3E3E3E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#DisplaySizeId82 .WNmoreNews .list-stories li a:hover {
+    color: #b20e0e;
+}
+
+#DisplaySizeId82 .WNmoreNews .list-stories li a:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-dark.png) center center no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: bottom;
+    margin-left: 5px;
+    content: '';
+}
+
+#DisplaySizeId82 .WNmoreNews .btn-more {
+    display: block;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 10px;
+    color: #3F3f3F;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 10px;
+}
+
+/* TOP STORY ON CATEGORY PAGE */
+#WNTopStoryWrapper {
+    min-height: 200px;
+    display: inline-table;
+}
+
+#WNListTopStory {
+    width: 266px;
+    min-height: 100px;
+    margin-right: 10px;
+    display: table-cell;
+    float: left;
+}
+
+#WNListTopStory h1.headline {
+    background-color: #f2f1f1;
+    color: #b20e0e;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#WNMainListTopStory {
+    width: 361px;
+    min-height: 100px;
+    display: table-cell;
+    float: right;
+}
+
+#WNMainListTopStory .firstMainListTopStory a > .thumbnail {
+    height: 203px;
+    background-size: cover!important;
+}
+
+#WNMainListTopStory .firstMainListTopStory .content h1 {
+    font-size: 24px;
+    margin: 13px 0px;
+    color: #464645;
+}
+
+#WNMainListTopStory .firstMainListTopStory .content h1:hover {
+    color: #b20e0e;
+}
+
+#WNMainListTopStory .firstMainListTopStory .content h1.hasClip:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-red.png) center center no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+    content: '';
+}
+
+#WNMainListTopStory .firstMainListTopStory .content .read-more a{
+    font-size: 14px!important;
+    text-transform: uppercase;
+    color: #b20e0e!important;
+    font-weight: bold;
+}
+
+
+/* MORE NEWS ON CATEGORY PAGE */
+#WNMoreNewsWrapper > h1 {
+    display: block;
+    background-color: #f2f1f1;
+    padding: 15px;
+    font-size: 20px;
+    color: #b20e0e;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+#WNMoreNewsWrapper ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#WNMoreNewsWrapper ul li {
+    display: inline-table;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#WNMoreNewsWrapper ul li a {
+    display: inline-table;
+}
+
+#WNMoreNewsWrapper ul li .local-news-thumbnail {
+    width: 160px;
+    height: 90px;
+    position: relative;
+    background-size: cover !important;
+}
+
+#WNMoreNewsWrapper ul li .local-news-content {
+    height: 90px;
+    width: 460px;
+    float: right;
+    padding: 0px 10px;
+    position: relative;
+    display: inline-table;
+}
+
+#WNMoreNewsWrapper ul li .local-news-content a {
+    text-decoration: none;
+    color: #3E3E3E;
+    font-weight: bold;
+}
+
+#WNMoreNewsWrapper ul li .local-news-content a h1 {
+    margin: 0px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    color: #3a3a3a;
+}
+
+#WNMoreNewsWrapper ul li .local-news-content a h1:hover {
+    color: #b20e0e;
+}
+
+.inline-videoicon {
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/play-inline.png) center center no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: contain;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+
+#WNMoreNewsWrapper ul li .local-news-content .date {
+    font-size: 11px;
+    color: #a8a8a8;
+    padding-top: 0px;
+    display: block;
+}
+
+#WNMoreNewsWrapper ul li .local-news-content .abstract {
+    font-size: 13px;
+    bottom: 0px;
+    width: 435px;
+    text-align: left;
+    display: block;
+    margin: 5px 0px;
+}
+
+
+/* MEET THE TEAM */
+
+#WNMeetTheTeamWrapper {
+    background-color: #222222;
+    position: relative;
+    margin: 15px 0px;
+}
+
+#WNMeetTheTeamWrapper .navigator {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+}
+
+#WNMeetTheTeamWrapper .navigator .left-arrow {
+    width: 25px;
+    height: 25px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/arrow.PNG) center center no-repeat;
+    background-size: contain;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#WNMeetTheTeamWrapper .navigator .right-arrow {
+    width: 25px;
+    height: 25px;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/arrow.PNG) center center no-repeat;
+    background-size: contain;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    display: inline-block;
+    cursor: pointer;
+}
+
+#WNMeetTheTeamWrapper h1.title {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin: 0px;
+    padding: 12px;
+    padding-left: 20px;
+}
+
+#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px 30px auto;
+}
+
+#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper ul li {
+    display: table-cell;
+    padding-right: 12px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+/*#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper ul li:nth-child(4n) {
+    padding-right: 0px;
+}*/
+
+#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper ul li .list-story-item .item-thumbnail {
+    width: 187px;
+    height: 95px;
+    background-size: cover!important;
+}
+
+#WNMeetTheTeamWrapper .list-story-wrapper .list-story-item {
+    width: 190px;
+}
+
+#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper ul li .item-info {
+    display: block;
+    overflow: hidden;
+}
+
+#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper ul li .item-info .headline {
+    display: block;
+}
+
+#WNMeetTheTeamWrapper .list-story-wrapper .slidelist-wrapper ul li .item-info h1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 0px;
+}
+
+
+#WNMeetTheTeamWrapper .socials-links {
+    height: 25px;
+    width: 100%;
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/kmir/images/social_list.png) left no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+}
+
+#WNMeetTheTeamWrapper .socials-links > a {
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+/* SECONDARY VIDEOS */
+.secondaryListTopStory {
+    margin: 20px 0px;
+}
+
+.secondaryListTopStory ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.secondaryListTopStory ul li {
+    display: inline-table;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.secondaryListTopStory ul li:last-child {
+    padding-bottom: 0px;
+}
+
+.secondaryListTopStory ul li a {
+    display: inline-table;
+}
+
+.secondaryListTopStory ul li a:nth-child(2) {
+    display: inline-table;
+    float: right;
+    width: 255px;
+}
+
+.secondaryListTopStory ul li a:nth-child(2) .headline h1 {
+    font-size: 13px;
+    margin: 0px;
+    padding-left: 10px;
+    color: #5a5a5a;
+}
+
+.secondaryListTopStory ul li a:nth-child(2) .headline h1:hover {
+    color: #b20e0e;
+}
+
+.secondaryListTopStory ul li a .headline.hasClip h1:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-red.png) center center no-repeat;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+    content: '';
+}
+
+.secondaryListTopStory ul li .item-thumbnail{
+    width: 101px;
+    height: 56px;
+    background-size: cover!important;
+}
+
+.listTopStory ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 15px;
+}
+
+.listTopStory ul li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.listTopStory ul li:last-child {
+    border: none;
+}
+
+.listTopStory ul li span.read-more {
+    text-transform: capitalize;
+    color: #b20e0e;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 10px 0px;
+    display: block;
+}
+
+.listTopStory ul li a .headline h1 {
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+.listTopStory ul li a .headline h1:hover {
+    color: #b20e0e;
+}
+
+.listTopStory ul li .headline.hasClip h1:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-red.png) center center no-repeat;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+    content: '';
+}
+
+.relatedSection {
+    margin-top: 30px;
+}
+
+.relatedSection ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.relatedSection ul li a span {
+    font-size: 14px;
+}
+
+.relatedSection ul li a span:before{
+    content: 'Related: ';
+    font-weight: bold;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.relatedSection ul li a span.hasClip:after {
+    background: url(http://ftpcontent.worldnow.com/wncustom/custom/kmir/2014/images/play-inline-red.png) center center no-repeat;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+    content: '';
+}
+
+
+#wnad-term {
+    margin-top: 10px!important;
+}
+
+.footer-button {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: #3a3a3a;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #acacac;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#smallGrey {
+    margin:10px 0px;
+}
+
+
+
+
+
+
+
+/*End nhan.tran region*/

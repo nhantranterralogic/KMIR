@@ -1,0 +1,68 @@
+/* giang.nguyen */
+  #WNAffKMIR #WNHeader{
+    width: 90%;
+  }
+  #DisplaySizeId-30 > ul {
+      width: 100%;
+  }
+  #DisplaySizeId-30 {
+      margin-top: 45px;
+  }
+  #DisplaySizeId-30 > ul li span.title {
+      display: block;
+  }
+  #DisplaySizeId-30 > ul li {
+      height: auto;
+      padding-bottom: 10px;
+  }
+  #DisplaySizeId-30 > ul li span.close {
+      right: 10px;
+    }
+  #DisplaySizeId-30 > ul li span.more {
+     display: inline-block;;
+     position: initial;
+     margin-top: 10px;
+  }
+  #DisplaySizeId-30 > ul li span.title {
+    line-height: 45px;
+  }
+  #DisplaySizeId-30 > ul li a {
+    text-decoration: none;
+  }
+  #DisplaySizeId-30 > ul li span.headline.afterf:after{
+    background: url(http://ftpcontent.worldnow.com/professionalservices/clients/wwny/images/play.png) center center no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+    content: ' ';
+  }
+  #DisplaySizeId-30 > ul li span.headline {
+    display: block;
+    margin-right: 22px;
+    margin-left: 10px;
+  }
+
+
+
+  body.wnMobile #MobileMenu {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    height: 100%;
+    line-height: 15px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    width: 95px;
+    width: 33%;
+    border: 0;
+    background-color: #7B0007!important;
+    color: #ffffff;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+    float: right;
+}
+/* nhan.tran */
